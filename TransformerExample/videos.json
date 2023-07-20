@@ -1,0 +1,46 @@
+{
+    "EncoderExplanationShort": {
+        "url": "https://www.youtube.com/embed/H39Z_720T5s?start=54&end=99",
+        "duration": 45
+    },
+    "EncoderExplanationLong": {
+        "url": "https://www.youtube.com/embed/MUqNwgPjJvQ?start=44&end=185",
+        "duration": 141
+    },
+    "EncoderExample1": {
+        "url": "https://www.youtube.com/embed/MUqNwgPjJvQ?start=185&end=234",
+        "duration": 49
+    },
+    "EncoderExample2": {
+        "url": "https://www.youtube.com/embed/MUqNwgPjJvQ?start=234&end=280",
+        "duration": 46
+    },
+    "DecoderExplanationShort": {
+        "url": "https://www.youtube.com/embed/H39Z_720T5s?start=99&end=125",
+        "duration": 26
+    },
+    "DecoderExplanationLong": {
+        "url": "https://www.youtube.com/embed/d_ixlCubqQw?start=4&end=125",
+        "duration": 121
+    },
+    "DecoderExample": {
+        "url": "https://www.youtube.com/embed/d_ixlCubqQw?start=170&end=260",
+        "duration": 90
+    },
+    "TransformerExplanationShort": {
+        "url": "https://www.youtube.com/embed/H39Z_720T5s?start=125&end=160",
+        "duration": 35
+    },
+    "TransformerExplanationLong": {
+        "url": "https://www.youtube.com/embed/0_4KEb08xrE?start=4&end=327",
+        "duration": 323
+    },
+    "TransformerExample": {
+        "url": "https://www.youtube.com/embed/0_4KEb08xrE?start=327&end=402",
+        "duration": 75
+    },
+    "CarbonFootprint": {
+        "url": "https://www.youtube.com/embed/ftWlj4FBHTg?start=4&end=318",
+        "duration": 314
+    }
+}

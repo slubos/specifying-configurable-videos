@@ -1,0 +1,179 @@
+{
+    "id": "TransformerVideo",
+    "type": "root",
+    "parent": "",
+    "relation": "",
+    "requires": [],
+    "excludes": [],
+    "children": [
+        {
+            "id": "Encoder",
+            "type": "mandatory",
+            "parent": "TransformerVideo",
+            "relation": "",
+            "requires": [],
+            "excludes": [],
+            "children": [
+                {
+                    "id": "EncoderExplanation",
+                    "type": "mandatory",
+                    "parent": "Encoder",
+                    "relation": "",
+                    "requires": [],
+                    "excludes": [],
+                    "children": [
+                        {
+                            "id": "EncoderExplanationShort",
+                            "type": "optional",
+                            "parent": "EncoderExplanation",
+                            "relation": "alternative",
+                            "requires": [],
+                            "excludes": [],
+                            "children": []
+                        },
+                        {
+                            "id": "EncoderExplanationLong",
+                            "type": "optional",
+                            "parent": "EncoderExplanation",
+                            "relation": "alternative",
+                            "requires": [],
+                            "excludes": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "EncoderExample",
+                    "type": "optional",
+                    "parent": "Encoder",
+                    "relation": "",
+                    "requires": [],
+                    "excludes": [],
+                    "children": [
+                        {
+                            "id": "EncoderExample1",
+                            "type": "optional",
+                            "parent": "EncoderExample",
+                            "relation": "or",
+                            "requires": [],
+                            "excludes": [],
+                            "children": []
+                        },
+                        {
+                            "id": "EncoderExample2",
+                            "type": "optional",
+                            "parent": "EncoderExample",
+                            "relation": "or",
+                            "requires": [],
+                            "excludes": [],
+                            "children": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "Decoder",
+            "type": "mandatory",
+            "parent": "TransformerVideo",
+            "relation": "",
+            "requires": [],
+            "excludes": [],
+            "children": [
+                {
+                    "id": "DecoderExplanation",
+                    "type": "mandatory",
+                    "parent": "Decoder",
+                    "relation": "",
+                    "requires": [],
+                    "excludes": [],
+                    "children": [
+                        {
+                            "id": "DecoderExplanationShort",
+                            "type": "optional",
+                            "parent": "DecoderExplanation",
+                            "relation": "alternative",
+                            "requires": [],
+                            "excludes": [],
+                            "children": []
+                        },
+                        {
+                            "id": "DecoderExplanationLong",
+                            "type": "optional",
+                            "parent": "DecoderExplanation",
+                            "relation": "alternative",
+                            "requires": [],
+                            "excludes": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "DecoderExample",
+                    "type": "optional",
+                    "parent": "Decoder",
+                    "relation": "",
+                    "requires": [],
+                    "excludes": [],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "Transformer",
+            "type": "mandatory",
+            "parent": "TransformerVideo",
+            "relation": "",
+            "requires": [],
+            "excludes": [],
+            "children": [
+                {
+                    "id": "TransformerExplanation",
+                    "type": "mandatory",
+                    "parent": "Transformer",
+                    "relation": "",
+                    "requires": [],
+                    "excludes": [],
+                    "children": [
+                        {
+                            "id": "TransformerExplanationShort",
+                            "type": "optional",
+                            "parent": "TransformerExplanation",
+                            "relation": "alternative",
+                            "requires": [],
+                            "excludes": [],
+                            "children": []
+                        },
+                        {
+                            "id": "TransformerExplanationLong",
+                            "type": "optional",
+                            "parent": "TransformerExplanation",
+                            "relation": "alternative",
+                            "requires": ["EncoderExplanationLong", "DecoderExplanationLong"],
+                            "excludes": [],
+                            "children": []
+                        }
+                    ]
+                },
+                {
+                    "id": "TransformerExample",
+                    "type": "optional",
+                    "parent": "Transformer",
+                    "relation": "",
+                    "requires": [],
+                    "excludes": [],
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "CarbonFootprint",
+            "type": "optional",
+            "parent": "TransformerVideo",
+            "relation": "",
+            "requires": [],
+            "excludes": [],
+            "children": []
+        }
+    ]
+}
